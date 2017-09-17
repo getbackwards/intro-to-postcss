@@ -1,0 +1,20 @@
+{
+  "autoprefixer": {
+    "browsers": ["last 2 versions"]
+  }
+}
+
+//{
+//  "autoprefixer": {
+//    "browsers": ["last 2 versions"]
+//  },
+//  "postcss-cssnext": {
+//    "features": {
+//      "customProperties": {
+//        "variables": {
+//          "mainColor": "red"
+//        }
+//      }
+//    }
+//  }
+//}

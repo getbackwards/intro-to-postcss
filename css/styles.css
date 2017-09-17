@@ -1,0 +1,36 @@
+/* https://www.sitepoint.com/an-introduction-to-postcss/ */
+/* https://www.postcss.parts/ */
+
+:root {
+    --container-width: 800px;
+    --main-color: cornflowerblue;
+    --main-color: cornflowerblue;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    padding: 1rem;
+    font-family: Arial, sans-serif;
+    border: 3px solid var(--main-color);
+}
+
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+    width: var(--container-width);
+}
+
+@custom-selector :--headings h1, h2, h3, h4, h5, h6;
+
+:--headings {
+    color: var(--main-color);
+}
